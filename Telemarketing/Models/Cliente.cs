@@ -14,12 +14,12 @@ namespace Telemarketing.Models
         [Display(Name = "Nome")]
         public string nome { get; set; }
 
-        [Column("Email")]
-        [Display(Name = "Email")]
-        public string email { get; set; }
+        //[Column("Email")]
+        //[Display(Name = "Email")]
+        //public string email { get; set; }
 
-        [Column("Numero")]
-        [Display(Name = "Numero")]
-        public int numero { get; set; }
+        //[Column("Numero")]
+        //[Display(Name = "Numero")]
+        //public int numero { get; set; }
     }
 }
